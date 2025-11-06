@@ -1,3 +1,10 @@
+/**
+ * Program Assignment: PSP 2A
+ * Name: [Karla Sofía Castro Pérez]
+ * Date: [2025-06-11]
+ * Description: Clase para contar líneas de código excluyendo comentarios y líneas vacías
+ */
+
 import java.util.*;
 
 /**
@@ -20,6 +27,13 @@ public class LineCounter {
   //
   // Methods
   //
+
+
+/**
+ * Cuenta líneas de código válidas excluyendo comentarios y líneas vacías
+ * @param artData array de líneas de código a analizar
+ * @return número total de líneas de código válidas
+ */
 
 public int count(String[] artData)
 {

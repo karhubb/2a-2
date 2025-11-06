@@ -1,3 +1,10 @@
+/**
+ * Program Assignment: PSP 2A
+ * Name: [Karla Sofía Castro Pérez]
+ * Date: [2025-06-11]
+ * Description: Clase para lectura de archivos de código fuente
+ */
+
 import java.io.*;
 
 /**
@@ -23,7 +30,9 @@ public class Input {
     private BufferedReader br = null;
 
     /**
-     * 
+     * Lee el contenido de un archivo y lo retorna como String
+     * @param inFile nombre del archivo a leer
+     * @return contenido del archivo como String, o string vacío en caso de error
      */
      public String readData(String inFile) {
         StringBuilder data = new StringBuilder();

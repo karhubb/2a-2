@@ -1,10 +1,23 @@
+/**
+ * Program Assignment: PSP 2A
+ * Name: [Karla Sofía Castro Pérez]
+ * Date: [2025-06-11]
+ * Description: Clase lógica principal que coordina el conteo de líneas y métodos
+ */
+
 import java.io.File;
 import java.util.*;
 
 /**
  * Class Logic2a
  */
+
 public class Logic2a {
+        /**
+     * Método principal que ejecuta el análisis de código
+     * Analiza todos los archivos Java en el directorio actual
+     * y genera reporte de líneas y métodos
+     */
 public void logic2a()
 {
     Input myInput = new Input();
